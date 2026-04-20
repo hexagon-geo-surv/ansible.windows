@@ -327,7 +327,7 @@ To check whether it is installed, run <code class="code docutils literal notrans
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <ul class="simple">
-<li><p>The module is set as failed when a terminating exception is throw, or <code class="docutils literal notranslate"><span class="pre">error_action=stop</span></code> and a normal error record is raised.</p></li>
+<li><p>The module is set as failed when a terminating exception is thrown, or <code class="docutils literal notranslate"><span class="pre">error_action=stop</span></code> and a normal error record is raised.</p></li>
 <li><p>The output values are processed using a custom filter and while it mostly matches the <code class="docutils literal notranslate"><span class="pre">ConvertTo-Json</span></code> result the following value types are different.</p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">DateTime</span></code> will be an ISO 8601 string in UTC, <code class="docutils literal notranslate"><span class="pre">DateTimeOffset</span></code> will have the offset as specified by the value.</p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">Enum</span></code> will contain a dictionary with <code class="docutils literal notranslate"><span class="pre">Type</span></code>, <code class="docutils literal notranslate"><span class="pre">String</span></code>, <code class="docutils literal notranslate"><span class="pre">Value</span></code> being the type name, string representation and raw integer value respectively.</p></li>
